@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="{{ url_for('static',filename = 'css/bootstrap.min.css')  }}"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Machine Learning Lab</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/aboutusnew"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/ml"
+                >About Ml</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/final">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-5 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+        >
+          <img
+            src="{{ url_for('static',filename = 'image/Department1.png')  }}"
+            class="img-fluid"
+            style="
+              width: auto;
+              height: auto;
+              min-width: 500px;
+              min-height: 600px;
+            "
+          />
+        </div>
+
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-lg-7"
+          style="padding: 30px"
+        >
+          <h1>About Us</h1>
+          <br />
+          <p style="font-size: 20px; text-align: justify; color: blue">
+            The Department of Computer Engineering was incepted in the year 2007
+            with the vision, “To create an environment in which new ideas,
+            research and technology development and the technocrats and
+            innovators of tomorrow become competent to face the global
+            challenges”, In these academic years Department of Computer
+            Engineering (CS), PIET has achieved lot of success and earn many
+            achievements. I am glad to inform that Department has been
+            accredited by National Board of Accreditation (NBA) in year 2017-18
+            and it is now in elite list of departments in India. It has taken
+            initiative to start own portal for the home assignment submission
+            and awarding marks. There is many other software are also used which
+            are developed by the faculty members and students of Department such
+            as cspiet.poornima.org, KYS, cstech.poornima.org. Because of all
+            this efforts and team work Department has been recognized as one of
+            the most innovative department in Poornima foundation.
+          </p>
+
+          <br /><br />
+        </div>
+      </div>
+    </div>
+    <!--<h1 style="text-align: center">Student</h1>-->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4"></div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="card mb-4">
+            <div class="card">
+              <img
+                style="max-height: 200px"
+                src="{{ url_for('static',filename = 'image/my.jpeg')  }}"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title" ; style="text-align: center">
+                  Developer
+                </h5>
+                <p class="card-text" ; style="text-align: justify center">
+                  Lakhan Sharma
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br /><br /><br /><br /><br /><br />
+
+        <p style="font-size: 20px; text-align: justify"></p>
+        <div id="abt-me" class="container-md">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4"></div>
+              <h4 class="card-title">About Me</h4>
+              <br />
+              <p class="card-text" style="font-size: 20px">
+                I'm Lakhan Sharma, an undergrad, currently pursuing Btech from
+                Poornima Institute of Engineering and Technology.I'm a student
+                and learner who is keenly interested in technology. I am a
+                highly motivated computer science student who has specific
+                involvement with python and keen interest in machine learning
+                and data science and is enthusiastic about learning and
+                creativity. I have specific involvement in critical thinking and
+                improvement and looking forward for potential open doors that
+                foster and makes me skilled at a certain degree, so that i would
+                be able to contribute towards the general public and society. I
+                have knowledge of HTML, CSS, DSA, Java, C, C++, Database
+                management. I'm also Microsoft Data fundamental certified.
+                <br /><br />
+                Other than technical field, I like to listening music,watching
+                moives, playing outdoor games and travelling. I have a keen
+                interest in cricket and follow every update on it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <marquee style="color: #000; margin-top: 7px">
+      <h9>Developed by Lakhan Sharma (PIET20AD027)</h9>
+    </marquee>
+    <div class="tail">
+      <div class="icons">
+        <a
+          href="https://github.com/Lakhan027"
+          class="fa fa-github"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/lakhan-sharma-2897841ba"
+          target="_blank"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="https://instagram.com/luckky___007"
+          target="_blank"
+          class="fa fa-instagram"
+        ></a>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <br />
+    <br />
+
+    <h1>Disclaimer</h1>
+    <br />
+    <p style="font-size: 20px; text-align: justify; color: red">
+      This website contains images and content obtained by routine Google
+      Images/document searches. Some of these images/data may perhaps be under
+      copyright. They are included here for educational and noncommercial
+      purposes and are considered to be covered by the doctrine of Fair Use. In
+      any event they are easily available from Google Images/data.It's not
+      feasible to give full scholarly credit to the creators of these
+      images/data. We hope they can be satisfied with the positive role.
+    </p>
+
+    <br />
+    <br />
+    <br /><br /><br /><br /><br /><br />
+
+    <div class="fixed-bottom">
+      <div class="bg-secondary" style="min-height: 40px">
+        <marquee style="color: #fff; margin-top: 7px">
+          <h9>Developed by Lakhan Sharma(PIET20AD027)</h9>
+        </marquee>
+      </div>
+    </div>
+    <!-- change later-->
+    <script src="{{ url_for('static',filename = 'js/bootstrap.bundle.min.js')  }}"></script>
+  </body>
+</html>
